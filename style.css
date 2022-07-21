@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    background-color: #161724;
+    /* height: 100vh;
+    align-content: center; */
+}
+section{
+    color: white;
+    background-color: #23243A; 
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    height: 80vh;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+h1{
+     position: relative;
+    top: 30px;
+    left: 88px; 
+    /* margin-left: 80px; */
+    /* padding-left: 70px;
+    margin-bottom: -60px; */
+    /* margin-top: 150px; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding:50px 70px;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 40px;
+}
+.img-card{
+    /* flex: 1; */
+    border: 0.3px solid white;
+    height: 270px;
+    width: 210px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+input{
+    background-color:  #23243A;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-size:1.3em ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    background-color:white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: black;
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+.btn1{
+    background-color:rgb(5, 5, 52);
+    width: 90px;
+    height: 50px;
+    border: none;
+    float: right;
+    color: white;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    color: #5157A5;
+}
+.lname{
+    margin-bottom: 20px;
+    width: 535px;
+    height: 50px;
+}
+#name1{
+    margin-left: 10px;
+}
+#name,
+#name1{
+    width: 260px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#fname{
+    position: relative;
+    left: 198px;
+}
+#fname1{
+display: none;
+}
+
+
+
+@media screen  and (max-width: 991px) {
+    
+    .container{
+        display: block;
+    }
+    .img-card{
+        margin-bottom: 30px;
+    }
+    #name1{
+        margin-left: 0px;
+    }
+    #name{
+        margin-bottom: 30px;
+    }
+    section{
+        height: auto;
+    }
+     #fname{
+        position: relative;
+        left: -75px;
+        top: 80px;
+        padding-top: 20px;
+    }
+    
+        .lname{
+            margin-bottom: 20px;
+            width: 525px;
+            height: 50px;
+        }
+        h1{
+            left: 70px;
+        }
+}
+@media screen  and (min-width: 949px) and (max-width: 991px){
+    #fname{
+        position: relative;
+        left: 195px;
+        top: 0px;
+        padding-top: 0px;
+    }
+    .btn{
+       margin-right: 30px; 
+    }
+}
+@media screen  and (min-width: 402px) and (max-width: 411px){
+    #fname{
+        left: -70px !important;
+        top: 80px !important;
+    }
+    .hem{
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width:411px){
+    #fname{
+        left: 0px;
+        top: 65px;
+    }
+    .hem{
+        margin-top: -20px;
+        /* COmment this out between 407 tp 411px and top of fname too */
+    }
+}
+@media screen and (max-width:500px){
+body{
+        color: white;
+        background-color: #23243A; 
+        /* width: 70%; */
+        margin: 70px auto;
+        align-items: center;
+        height: 80vh;
+        border-radius: 20px;
+        padding-bottom: 30px;
+    }
+    section{
+        color: white;
+        background-color: #23243A; 
+        width: 70%;
+        margin: 0;
+        align-items:initial;
+        height: 0vh;
+        border-radius: 0px;
+        padding-bottom: 0px;
+
+           }
+           .btn{
+            margin-bottom: 10px;
+           }
+    .btn1{
+        margin-left: 0px !important;
+    }
+}
+@media screen and (max-width:558px){
+        .btn{
+            width:100px ;
+        }
+        .btn1{
+        width: 100px;
+        }
+}
+@media screen  and (max-width: 340px){
+    .container{
+        padding-left: 50px;
+    }
+    h1{
+        left: 50px;
+    }
+
+}
+@media screen  and (max-width: 948px){
+    #fname1{
+        display: block;
+        /* position: relative;
+        left: 198px; */
+    }
+  
+.lname{
+    width: auto;
+}
+.btn {
+    margin-right: 0px;
+    float: left;
+    margin-left: 0px;
+}
+.btn1{
+    float: left;
+    margin-left: 10px;
+}
+}
+
+@media screen  and (min-width: 992px) and (max-width: 1150px) {
+    section{
+        width: 80%;
+        height: auto;
+    }
+    .container{
+        gap: 20px;
+    }
+    h1{
+        position: relative;
+        top: 50px;
+        left: 35px;
+    }
+    
+}
+@media screen and (min-width: 1051px) {
+    .container{
+        gap: 20px;
+    }
+    section{
+        height: auto;
+    }
+ 
+    h1{
+        position: relative;
+        top: 50px;
+        left: 70px;
+
+    }
+    
+}
