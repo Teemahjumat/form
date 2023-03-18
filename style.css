@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: fantasy;
 }
+/* i can write a better code than this now(2023) */
 body{
     background-color: #161724;
     /* height: 100vh;
@@ -262,8 +263,8 @@ body{
     }
  
     h1{
-        position: relative;
-        top: 50px;
+        /* position: relative;
+        top: 50px; */
         left: 70px;
 
     }
